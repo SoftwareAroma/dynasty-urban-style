@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import { SEO } from '@components/common';
+import { SEO } from '@components/common/SEO';
 
 const Head: FC = () => {
   return (

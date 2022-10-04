@@ -1,25 +1,25 @@
 {
-  "title": "Dynasty Urban Style | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "title": "Dynasty Urban Style | Meeting your fashion needs",
+  "titleTemplate": "%s - Dynasty Urban Style",
+  "description": "Meeting the fashion needs of the urban community",
   "openGraph": {
-    "title": "ACME Storefront | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "Dynasty Urban Style | Meeting your fashion needs",
+    "description": "Meeting the fashion needs of the urban community",
     "type": "website",
     "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "site_name": "Dynasty Urban Style",
     "images": [
       {
         "url": "/card.png",
         "width": "800",
         "height": "600",
-        "alt": "Next.js Commerce"
+        "alt": "Dynasty Urban Style"
       }
     ]
   },
   "twitter": {
-    "handle": "@nextjs",
-    "site": "@nextjs",
+    "handle": "@dynasty_urban_style",
+    "site": "@dynasty_urban_style",
     "cardType": "summary_large_image"
   }
 }
