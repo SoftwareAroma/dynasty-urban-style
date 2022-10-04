@@ -7,6 +7,7 @@ type Props = {
 
 const MainLayout = (props: Props) => {
     const {children} = props;
+    // adding skeletons to the pages
     return (
         <React.Fragment>
             <div className="header">
