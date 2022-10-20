@@ -19,18 +19,23 @@ export const themeSlice = createSlice({
         setTheme: (state, action: PayloadAction<boolean>) => {
             state.theme = action.payload;
         },
+        // toggle theme
+        toggleTheme: (state) => {
+            state.theme = !state.theme;
+        },
         // set to false for light theme
         setLightTheme: (state) => {
             state.theme = false;
         },
         // set to true for dark theme
         setDarkTheme: (state) => {
+            console.log("toggle theme is called");
             state.theme = true;
         }
     }
 });
 
-export const {setTheme, setLightTheme, setDarkTheme} = themeSlice.actions;
+export const {setTheme, setLightTheme, setDarkTheme, toggleTheme} = themeSlice.actions;
 
 // select theme
 export const selectTheme = (state: any) => state.theme.theme;
@@ -48,6 +53,11 @@ export const setLightThemeAction = () => (dispatch: any) => {
 // dispatch the action to set dark theme
 export const setDarkThemeAction = () => (dispatch: any) => {
     dispatch(setDarkTheme());
+}
+
+// toggle theme
+export const toggleThemeAction = () => (dispatch: any) => {
+    dispatch(toggleTheme());
 }
 
 export default themeSlice.reducer;
