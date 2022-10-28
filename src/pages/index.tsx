@@ -17,13 +17,13 @@ const Home = () => {
                     <div className="flex flex-wrap mt-10 justify-center">
                         <div className="m-3">
                             <a href="https://www.facebook.com/software_aroma" title="dynasty urban style On Facebook"
-                               className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+                                className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-gray-900 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
                                 <span className="mx-auto">Facebook</span>
                             </a>
                         </div>
                         <div className="m-3">
                             <a href="https://twitter.com/software_aroma" title="dynasty urban style On Twitter"
-                               className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
+                                className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-500 hover:border-blue-500 hover:bg-gray-900 hover:text-white shadow-md py-2 px-6 inline-flex items-center">
                                 <span className="mx-auto">Twitter</span>
                             </a>
                         </div>
