@@ -39,6 +39,9 @@ module.exports = {
         blue: 'var(--blue)',
         green: 'var(--green)',
         red: 'var(--red)',
+        gold: '#FBB03B',
+        cRed: '#FF0000',
+        cGray: '#CECECE',
       },
       textColor: {
         base: 'var(--text-base)',
@@ -56,6 +59,10 @@ module.exports = {
       scale: {
         120: '1.2',
       },
+      // add background image
+      backgroundImage: (theme) => ({
+        'subscribe-bg': "url('/images/subscribe_bg_image.png')",
+      }),
     },
   },
   plugins: [],

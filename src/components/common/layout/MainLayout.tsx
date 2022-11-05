@@ -2,7 +2,6 @@ import React from 'react';
 import {MainHeader} from "@components/common/Header";
 import MainFooter from "@components/common/Footer/MainFooter";
 import {useAppSelector} from "@provider";
-import {HeroSection} from "@components/ui/Hero";
 
 // define prop types
 type Props = {
@@ -16,13 +15,12 @@ const MainLayout = (props: Props) => {
     return (
         <React.Fragment>
             <div className={theme ? "dark": ""}>
-                <div className="">
-                    <div className="header sticky top-0">
+                <div className="w-full">
+                    <div className="header">
                         <MainHeader />
                     </div>
-                    <HeroSection />
                 </div>
-                <div className="main-layout">
+                <div className="bg-white dark:bg-gray-900 mx-auto">
                     {children}
                 </div>
                 <div className="footer">
