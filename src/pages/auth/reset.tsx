@@ -1,21 +1,16 @@
 import { MainLayout } from '@components/common/layout';
-import { ArrowLeft, EyeSlash, FaceBook, GMail } from '@components/icons';
-import { RegisterComponent } from '@components/widgets';
-import Link from 'next/link';
+import { ArrowLeft } from '@components/icons';
+import { ResetPasswordComponent } from '@components/widgets';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React from 'react'
 
 const initialValues = {
     email: '',
-    password: '',
-    firstName: '',
-    lastName: '',
 };
 
-const RegisterPage = () => {
+const ResetPassword = () => {
 
     const [values, setValues] = React.useState(initialValues);
-    const [passwordVisible, setPasswordVisible] = React.useState(false);
     const router = useRouter();
 
     // handle change value
@@ -34,16 +29,14 @@ const RegisterPage = () => {
                 </p>
             </div>
             <div className="py-16"></div>
-            <RegisterComponent
+            <ResetPasswordComponent 
                 values={values}
-                handleChange={handleChange}
-                passwordVisible={passwordVisible}
-                setPasswordVisible={setPasswordVisible}
+                onChange={handleChange}
             />
         </React.Fragment>
     );
-};
+}
 
-RegisterPage.Layout = MainLayout
+ResetPassword.Layout = MainLayout;
 
-export default RegisterPage;
+export default ResetPassword;

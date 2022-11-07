@@ -1,5 +1,7 @@
 import { MainLayout } from '@components/common/layout';
-import { ArrowLeft, EyeSlash } from '@components/icons';
+import { ArrowLeft, EyeSlash, FaceBook, GMail } from '@components/icons';
+import { LoginComponent } from '@components/widgets';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
 
@@ -28,42 +30,13 @@ const LoginPage = () => {
                     Back to store
                 </p>
             </div>
-            <div className="flex flex-col justify-center items-center">
-                <div className="flex flex-col justify-between items-center rounded-lg px-12 py-8 shadow-lg w-[600px]">
-                    <h1 className="font-extrabold text-gray-900 dark:text-white uppercase tracking-widest">
-                        log in
-                    </h1>
-                    <p className="text-justify my-4">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, assumenda.
-                    </p>
-                    <form 
-                        action="" 
-                        className="w-full"
-                    >
-                        <div className="flex flex-col space-y-4 justify-center items-center">
-                            <input 
-                                type="text"
-                                placeholder='Email'
-                                // value={values.email}
-                                // onChange={(e) => handleChange(e)}
-                                className="border border-gray-200 w-full rounded-full px-4 py-2 focus:outline-none focus:border-gray-400"
-                            />
-                            <div className="flex relative top-0 right-0 left-0 w-full">
-                                <input
-                                    type="text"
-                                    placeholder='Password'
-                                    // value={values.password}
-                                    // onChange={handleChange}
-                                    className="border border-gray-200 w-full rounded-full px-4 py-2 focus:outline-none focus:border-gray-400"
-                                />
-                                <div className="absolute cursor-pointer z-10 top-[35%] right-6">
-                                    <EyeSlash />
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+            <div className="py-16"></div>
+            <LoginComponent
+                values={values}
+                handleChange={handleChange}
+                passwordVisible={passwordVisible}
+                setPasswordVisible={setPasswordVisible}
+            />
         </React.Fragment>
     );
 };
