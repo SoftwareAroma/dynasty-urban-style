@@ -92,7 +92,7 @@ const RegisterComponent = (props: Props) => {
                                 <div className="w-full h-[1px] bg-gray-400"></div>
                             </div>
                             <div className="flex w-full flex-grow flex-row justify-center space-x-10 pb-4">
-                                <button className='flex flex-row justify-center items-center bg-blue hover:bg-blue-500 rounded-full px-10 py-2 text-white text-xl space-x-2 mr-auto'>
+                                <button className='flex flex-row justify-center items-center bg-kblue hover:bg-blue-500 rounded-full px-10 py-2 text-white text-xl space-x-2 mr-auto'>
                                     <FaceBook
                                         className='w-6 h-6'
                                     />

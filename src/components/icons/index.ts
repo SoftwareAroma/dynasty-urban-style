@@ -31,3 +31,7 @@ export {default as Person} from './Person'
 export {default as EyeSlash} from './EyeSlash'
 export {default as GMail} from './GMail'
 export {default as DeliveryTruck} from './DeliveryTruck'
+export {default as PaymentIcon} from './PaymentIcon'
+export {default as DHLIcon} from './DHLIcon';
+export {default as MasterCardIcon} from './MasterCardIcon';
+

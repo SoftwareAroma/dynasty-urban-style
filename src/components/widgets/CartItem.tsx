@@ -1,6 +1,5 @@
 import React from 'react';
 import Image, { StaticImageData } from 'next/image';
-import { increaseItemQuantity } from '../../lib/provider/features/reducers/BasketReducer';
 
 type Props = {
     src: StaticImageData | any;

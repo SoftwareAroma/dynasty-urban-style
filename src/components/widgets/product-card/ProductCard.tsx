@@ -32,14 +32,14 @@ const ProductCard = (props: Props) => {
     } = props;
 
     // calculate the original price based on the discount
-    const originalPrice = isDiscount ? price + (price * (Number(discount?.replace('%', '')) / 100)) : price;
+    const discountPrice = isDiscount ? price + (price * (Number(discount?.replace('%', '')) / 100)) : price;
 
     return (
         <React.Fragment>
             <div className="bg-white shadow-md hover:scale-105 hover:shadow-xl duration-500 relative">
                     { 
                         isDiscount && 
-                            <div className="absolute top-6 left-4 bg-red rounded-full z-20 text-gray-100 px-2 p-1">
+                            <div className="absolute top-6 left-4 bg-red-500 rounded-full z-20 text-gray-100 px-4 p-1">
                                 <p>
                                     {discount}
                                 </p>
@@ -93,8 +93,8 @@ const ProductCard = (props: Props) => {
                             <div className="flex flex-row justify-center items-center space-x-4">
                                 {
                                     isDiscount ?  
-                                        <p className="text-lg md:text-xl lg:text-2xl font-semibold text-red cursor-auto my-3">
-                                            ${price}
+                                        <p className="text-lg md:text-xl lg:text-2xl font-semibold text-gray-700 cursor-auto my-3">
+                                            ${discountPrice}
                                         </p> 
                                         : 
                                         <p className="text-lg md:text-xl lg:text-2xl font-semibold text-gray-700 cursor-auto my-3">
@@ -103,9 +103,9 @@ const ProductCard = (props: Props) => {
                                 }
                                 {
                                     isDiscount && 
-                                    <del className='bg-gray-200 px-4'>
-                                        <p className="text-sm md:text-lg text-gray-500 cursor-auto ml-2">
-                                            ${originalPrice}
+                                    <del className='bg-gray-200 px-6 text-red-600 rounded-full text-center items-center'>
+                                        <p className="text-sm md:text-lg text-red-400 cursor-auto">
+                                            ${price}
                                         </p>
                                     </del>
                                 }

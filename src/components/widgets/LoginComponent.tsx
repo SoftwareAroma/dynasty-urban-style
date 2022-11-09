@@ -15,7 +15,7 @@ const LoginComponent = (props:Props) => {
 
     return (
         <React.Fragment>
-            <div className="flex flex-col justify-center items-center">
+            <div className="w-full flex flex-col justify-center items-center">
                 <div className="flex flex-col justify-between items-center rounded-2xl px-12 py-8 shadow-lg w-1/3">
                     <h1 className="font-extrabold text-black text-lg md:text-2xl lg:text-4xl dark:text-white uppercase tracking-widest">
                         log in
@@ -70,7 +70,7 @@ const LoginComponent = (props:Props) => {
                                 </div>
                             </div>
                             <div className="flex w-full flex-grow flex-row justify-center space-x-10 pb-8">
-                                <button className='flex flex-row justify-center items-center bg-blue hover:bg-blue-500 rounded-full px-10 py-2 text-white text-xl space-x-2 mr-auto'>
+                                <button className='flex flex-row justify-center items-center bg-kblue hover:bg-blue-500 rounded-full px-10 py-2 text-white text-xl space-x-2 mr-auto'>
                                     <FaceBook
                                         className='w-6 h-6'
                                     />

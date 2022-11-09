@@ -97,28 +97,28 @@ const MainFooter = () => {
                             <Link href='https://web.facebook.com/musah.ibrahim.3958/' rel="noopener noreferrer" passHref>
                                 <a target="_blank" className="text-gray-500">
                                     <FaceBook
-                                        className="w-6 h-6 hover:text-blue"
+                                        className="w-6 h-6 hover:text-kblue"
                                     />
                                 </a>
                             </Link>
                             <Link href='https://twitter.com/SoftwareAroma' rel="noopener noreferrer" passHref>
                                 <a target="_blank" className="text-gray-500">
                                     <Twitter
-                                        className="w-6 h-6 hover:text-blue"
+                                        className="w-6 h-6 hover:text-kblue"
                                     />
                                 </a>
                             </Link>
                             <Link href='https://www.instagram.com/musahibrahimali' rel="noopener noreferrer" passHref>
                                 <a target="_blank" className="text-gray-500">
                                     <InstaGram
-                                        className="w-6 h-6 hover:text-blue"
+                                        className="w-6 h-6 hover:text-kblue"
                                     />
                                 </a>
                             </Link>
                             <Link href='https://www.linkedin.com/in/musah-ibrahim-ali-820600ab/' rel="noopener noreferrer" passHref>
                                 <a className="text-gray-500">
                                     <LinkedIn
-                                        className="w-6 h-6 hover:text-blue"
+                                        className="w-6 h-6 hover:text-kblue"
                                     />
                                 </a>
                             </Link>

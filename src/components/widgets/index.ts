@@ -6,3 +6,6 @@ export {default as RegisterComponent} from './RegisterComponent';
 export {default as LoginComponent} from './LoginComponent';
 export {default as ShoppingCartTitle} from './ShoppingCartTitle';
 export {default as CartItem} from './CartItem';
+export {default as InputForm} from './InputForm';
+export {default as DeliveryMethodCard} from './DeliveryMethodCard';
+export {default as DisabledPaymentChip} from './DisabledPaymentChip';
