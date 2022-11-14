@@ -1,4 +1,4 @@
-import { EyeSlash, FaceBook, GMail } from '@components/icons';
+import { EyeIcon, EyeSlash, FaceBook, GMail } from '@components/icons';
 import Link from 'next/link';
 import React from 'react';
 
@@ -45,10 +45,18 @@ const LoginComponent = (props:Props) => {
                                     onChange={handleChange}
                                     className="border border-gray-200 w-full rounded-full px-4 py-2 focus:outline-none focus:border-gray-400"
                                 />
-                                <div className="absolute cursor-pointer z-10 top-[35%] right-6">
-                                    <EyeSlash
-                                        onClick={() => setPasswordVisible(!passwordVisible)}
-                                    />
+                                <div className="absolute cursor-pointer z-10 h-full flex flex-col justify-center items-center right-6">
+                                    {
+                                        !passwordVisible ? 
+                                        <EyeSlash
+                                            className="text-gray-400 w-6 h-6"
+                                            onClick={() => setPasswordVisible(!passwordVisible)}
+                                        /> : 
+                                        <EyeIcon
+                                            className="text-gray-400 w-6 h-6" 
+                                            onClick={() => setPasswordVisible(!passwordVisible)} 
+                                        />
+                                    }
                                 </div>
                             </div>
                             <div className="flex flex-row justify-between items-center w-full px-4 py-2">

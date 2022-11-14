@@ -3,6 +3,7 @@ import BrandLogo from '@components/common/widgets/BrandLogo';
 import MenuItem from './MenuItem';
 import { Cart, Menu, Person, Search } from '@components/icons';
 import IconMenuItem from './IconMenuItem';
+import { menu } from './menu/menu';
 
 const MainHeader = () => {
     return (
@@ -12,18 +13,11 @@ const MainHeader = () => {
                     <BrandLogo />
                     <div className="hidden lg:block">
                         <ul className="flex justify-center items-center space-x-14">
-                            <MenuItem
-                                title="Men"
-                                url="/"
-                            />
-                            <MenuItem
-                                title="Women"
-                                url="/"
-                            />
-                            <MenuItem
-                                title="Kids"
-                                url="/"
-                            />
+                            {
+                                menu.map((item, index) => (
+                                    <MenuItem key={index} title={item.title} url={item.url} />
+                                ))
+                            }
                         </ul>
                     </div>
                     {/* hamburger and mobile menu */}
