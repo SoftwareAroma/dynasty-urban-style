@@ -43,6 +43,10 @@ module.exports = {
         cRed: '#FF0000',
         cGray: '#CECECE',
         "dim-red": "#F1584D",
+        "dim-yellow": "#D4BE8D",
+        "c-blue": "#1A6EFF",
+        "l-blue": "#00B1FF",
+        "k-grey": "#808080",
       },
       textColor: {
         base: 'var(--text-base)',

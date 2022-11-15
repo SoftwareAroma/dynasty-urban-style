@@ -9,3 +9,11 @@ export {default as CartItem} from './CartItem';
 export {default as InputForm} from './InputForm';
 export {default as DeliveryMethodCard} from './DeliveryMethodCard';
 export {default as DisabledPaymentChip} from './DisabledPaymentChip';
+export {default as PagingIndicator} from './PagingIndicator';
+export {default as CheckBox} from './CheckBox';
+export {default as SizeButton} from './SizeButton';
+export {default as ColorPallet} from './ColorPallet';
+export {default as SizePallet} from './SizePallet';
+export {default as PricePallet} from './PricePallet';
+export {default as CategoryPallet} from './CategoryPallet';
+

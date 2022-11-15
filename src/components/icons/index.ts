@@ -35,3 +35,4 @@ export {default as PaymentIcon} from './PaymentIcon'
 export {default as DHLIcon} from './DHLIcon';
 export {default as MasterCardIcon} from './MasterCardIcon';
 export {default as EyeIcon} from './EyeIcon';
+export {default as HomeIcon} from './HomeIcon';

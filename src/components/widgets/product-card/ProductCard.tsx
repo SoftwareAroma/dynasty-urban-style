@@ -57,7 +57,7 @@ const ProductCard = (props: Props) => {
             <div 
                 onMouseEnter={onMouseEnter} 
                 onMouseLeave={onMouseLeave} 
-                className="bg-white shadow-md hover:scale-105 hover:shadow-xl duration-500 relative"
+                className="bg-white border rounded-lg border-gray-100 hover:scale-105 hover:shadow-xl duration-500 relative"
             >
                     {
                         hover &&

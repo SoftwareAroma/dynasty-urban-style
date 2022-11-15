@@ -14,3 +14,6 @@ export {default as ProductOne} from './AdobeStock_-1.png';
 export {default as ProductTwo} from './AdobeStock_-3.png';
 export {default as ProductThree} from './AdobeStock_-4.png';
 export {default as ProductFour} from './AdobeStock_-8.png';
+export {default as ProductFive} from './AdobeStock_-6.png';
+export {default as ProductSix} from './AdobeStock_-7.png';
+export {default as ProductSeven} from './AdobeStock_-9.png';
