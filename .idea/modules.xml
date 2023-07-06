@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dynasty-urban-style.iml" filepath="$PROJECT_DIR$/.idea/dynasty-urban-style.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../../BACKEND-FRAMEWORKS/NEST-JS/PROJECTS/dynasty.backend/.idea/dynasty.backend.iml" filepath="$PROJECT_DIR$/../../../../../BACKEND-FRAMEWORKS/NEST-JS/PROJECTS/dynasty.backend/.idea/dynasty.backend.iml" />
     </modules>
   </component>
 </project>

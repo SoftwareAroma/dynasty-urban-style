@@ -2,9 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Cart, DeliveryTruck, DHLIcon, PaymentIcon } from '@components/icons';
 import { MainLayout } from '@components/common/layout';
-import LoginPopUp from '@components/ui/LoginPopUp';
 import { DeliveryMethodCard, InputForm } from '@components/widgets';
-import { useSelector } from 'react-redux';
 import { useAppSelector } from '@lib/provider';
 
 
