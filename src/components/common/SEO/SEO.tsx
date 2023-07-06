@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { FC, Fragment, ReactNode } from 'react';
 import config from '@lib/config/seo_meta.json';
 
-const storeUrl = process.env.NEXT_PUBLIC_STORE_URL || process.env.NEXT_PUBLIC_VERCEL_URL;
+const storeUrl = process.env.NEXT_PUBLIC_STORE_URL
 const storeBaseUrl = storeUrl ? `https://${storeUrl}` : null;
 
 interface OgImage {

@@ -1,7 +1,7 @@
 import type { FC } from 'react';
-import { SEO } from '@components/common';
+import { SEO } from '@components/common/SEO';
 
-const Head: FC = () => {
+const SeoHead: FC = () => {
   return (
     <SEO>
       <meta
@@ -14,4 +14,4 @@ const Head: FC = () => {
   );
 }
 
-export default Head;
+export default SeoHead;

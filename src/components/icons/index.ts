@@ -21,3 +21,18 @@ export { default as ChevronLeft } from './ChevronLeft'
 export { default as ChevronDown } from './ChevronDown'
 export { default as ChevronRight } from './ChevronRight'
 export { default as DoubleChevron } from './DoubleChevron'
+export {default as FaceBook} from './FaceBook'
+export {default as InstaGram} from './Instagram'
+export {default as Twitter} from './Twitter'
+export {default as LinkedIn} from './LinkedIn'
+export {default as Search} from './Search'
+export {default as Cart} from './Cart'
+export {default as Person} from './Person'
+export {default as EyeSlash} from './EyeSlash'
+export {default as GMail} from './GMail'
+export {default as DeliveryTruck} from './DeliveryTruck'
+export {default as PaymentIcon} from './PaymentIcon'
+export {default as DHLIcon} from './DHLIcon';
+export {default as MasterCardIcon} from './MasterCardIcon';
+export {default as EyeIcon} from './EyeIcon';
+export {default as HomeIcon} from './HomeIcon';

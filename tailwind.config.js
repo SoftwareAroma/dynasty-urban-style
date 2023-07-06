@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class', // or 'media' or 'class'
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/lib/**/*.{js,ts,jsx,tsx}",
@@ -29,15 +30,23 @@ module.exports = {
         'accent-7': 'var(--accent-7)',
         'accent-8': 'var(--accent-8)',
         'accent-9': 'var(--accent-9)',
-        violet: 'var(--violet)',
+        kviolet: 'var(--violet)',
         'violet-light': 'var(--violet-light)',
         'violet-dark': 'var(--violet-dark)',
-        pink: 'var(--pink)',
+        kpink: 'var(--pink)',
         'pink-light': 'var(--pink-light)',
-        cyan: 'var(--cyan)',
-        blue: 'var(--blue)',
-        green: 'var(--green)',
-        red: 'var(--red)',
+        kcyan: 'var(--cyan)',
+        kblue: 'var(--blue)',
+        kgreen: 'var(--green)',
+        kred: 'var(--red)',
+        gold: '#FBB03B',
+        cRed: '#FF0000',
+        cGray: '#CECECE',
+        "dim-red": "#F1584D",
+        "dim-yellow": "#D4BE8D",
+        "c-blue": "#1A6EFF",
+        "l-blue": "#00B1FF",
+        "k-grey": "#808080",
       },
       textColor: {
         base: 'var(--text-base)',
@@ -55,6 +64,10 @@ module.exports = {
       scale: {
         120: '1.2',
       },
+      // add background image
+      backgroundImage: (theme) => ({
+        'subscribe-bg': "url('/images/subscribe_bg_image.png')",
+      }),
     },
   },
   plugins: [],
