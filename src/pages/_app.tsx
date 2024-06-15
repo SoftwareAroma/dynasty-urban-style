@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app';
 import {Provider} from "react-redux";
 import {store} from "@provider";
 import SeoHead from "@components/common/Head";
+import { ThemeProvider } from "@material-tailwind/react";
 
 type Props = {
     children: React.ReactNode;
@@ -24,9 +25,11 @@ function MyApp(props: AppProps) {
       <React.Fragment>
         <SeoHead />
         <Provider store={store}>
-          <Layout pageProps={pageProps}>
-              <Component {...pageProps} />
-          </Layout>
+          <ThemeProvider>
+            <Layout pageProps={pageProps}>
+                <Component {...pageProps} />
+            </Layout>
+          </ThemeProvider>
         </Provider>
       </React.Fragment>
   );
